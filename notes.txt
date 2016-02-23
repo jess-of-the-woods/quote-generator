@@ -1,0 +1,6 @@
+store quotes as strings in a json. or array
+event listener for button..
+button inserts new string into ..
+
+math.random
+
