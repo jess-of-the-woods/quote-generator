@@ -1,7 +1,27 @@
 div {
-  background-color: green;
+  background-color: #8585ad;
   height: 400px;
   width: 600px;
+  margin: 15px;
+}
+
+#maindiv {
+  size: 95%;
+}
+
+#quoteID {
+  background-color: #adad85;
+  width: 75%;
+  height: 60%;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+p {
+  margin: 25px;
 }
 
 #newQuote {
