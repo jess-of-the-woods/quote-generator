@@ -6,14 +6,25 @@ div {
 }
 
 #maindiv {
-  size: 95%;
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 7px;
 }
 
 #quoteID {
-  background-color: #adad85;
+  background-color: #bfbfbf;
   width: 75%;
   height: 60%;
   border-radius: 10px;
+  padding: 7px;
+}
+
+#tweet {
+  width: 175px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 h3 {
@@ -22,8 +33,14 @@ h3 {
 
 p {
   margin: 25px;
+  font-size: 1.4em;
+}
+
+a {
+  font-size: 1.3em;
 }
 
 #newQuote {
   margin: 10px;
+  font-size: 1.3em;
 }
