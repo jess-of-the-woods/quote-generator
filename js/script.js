@@ -12,7 +12,11 @@ function buttonCounter() {
 } 
 
 function displayQuote() {
+  var nextQuote = quotesArray[buttonClicks%quotesArray.length];
   $("#quotes").empty();
-  console.log(buttonClicks%quotesArray.length);
-  $("#quotes").append(quotesArray[buttonClicks%quotesArray.length]);
+  $("#quotes").append(nextQuote);
+
+  $("#tweet").empty();
+  $("#tweet").append("<a target='_blank', href='http://twitter.com/home/?status=" + nextQuote + "''>" + "Tweet this quote.</a>");
 }
+
